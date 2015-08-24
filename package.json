@@ -1,0 +1,29 @@
+{
+  "name": "env-replace-loader",
+  "version": "1.0.0",
+  "description": "Find and replace string from replacements file based on NODE_ENV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/500tech/env-replace-loader"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "replacement",
+    "find",
+    "replace"
+  ],
+  "author": "Ilya Gelman <ilyagelman@ilyagelman.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/500tech/env-replace-loader/issues"
+  },
+  "homepage": "https://github.com/500tech/env-replace-loader",
+  "dependencies": {
+    "loader-utils": "0.2.11"
+  }
+}
