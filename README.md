@@ -9,7 +9,7 @@ Created and used in [kick](http://angular-kick.com)
 
 preLoaders: [{
   test: /\.*/,
-  loaders: ['replaces?prefix=@@&file=' + __dirname + '/environments.json']
+  loaders: ['env-replace?prefix=@@&file=' + __dirname + '/environments.json']
 }]
 
 
